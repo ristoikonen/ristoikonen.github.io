@@ -1,14 +1,14 @@
-<p align="center">
-<!-- <img width="200" src="https://raw.githubusercontent.com/logo-full.svg"> -->
-</p>
+
 
 # Projects
 
 
+- [Letslearn-dotnet-aspire](https://github.com/ristoikonen/letslearn-dotnet-aspire) - Two APIs in Aspire dashboard
+- 
 
 
 
-### Project Listings
+
 
 
 
