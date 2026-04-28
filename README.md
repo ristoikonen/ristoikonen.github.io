@@ -2,28 +2,17 @@
 
 # Projects
 
-Codings
+- [AWS](https://github.com/ristoikonen/Embed.AppHost/blob/master/FV.md) -  My AWS Lambda finacial functions
 
+- [PixMapper Class Library](https://github.com/ristoikonen/PixMapper) - Encodes text into a Bitmap, reads text from a Bitmap. Unique encoder as edits can be easily verified using image editor. Original idea, code is 100% by me.
 
+- [PDF_Llama](https://github.com/ristoikonen/PDF_Llama) -  Use Ollama models to summarise and analyse PDF's. PDF are read using PDFPig.
 
-
-- [JKM](https://github.com/ristoikonen/JKM) -  Extract spot prices
-
-- [EkaWebAPI](https://github.com/ristoikonen/EkaWebAPI) -  Music streaming API
-
-Learnings
-- [Letslearn-dotnet-aspire](https://github.com/ristoikonen/letslearn-dotnet-aspire) - Two APIs in Aspire dashboard
-
-Just for Fun!
-
-- [Bserver](https://github.com/ristoikonen/bserver) -  From Bitmap to collection of bytes to Bitmap; Use LINQ to edit pixels in a List of bytes in between. Check method GetBitmapFromBuGeRedList
-
-
-How close are colors of two pixels. Using  BGRA as alpha included (vs RGB)
+Code to find closest color to the eye.
 
 ```csh
 
-// How close are colors of two pixels.
+// How close are two pixels colors.
 public double ColourDistance(BGRA e1, BGRA e2)
 {
     long rmean = ((long)e1.Red + (long)e2.Red) / 2;
